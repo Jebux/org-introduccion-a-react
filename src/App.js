@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Componentes/Header/Header';
 import Formulario from './Componentes/Formulario/Formulario';
+import MiOrg from './Componentes/MiOrg';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Header />
 
       <Formulario/>
+
+      <MiOrg />
 
     </div>
   );
